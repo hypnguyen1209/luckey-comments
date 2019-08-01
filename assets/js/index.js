@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     var button = document.getElementById('btn');
-
     button.addEventListener('click', () => {
         var token = document.getElementById('token').value;
         var id = document.getElementById('idpost').value;
